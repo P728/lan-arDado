@@ -11,6 +11,7 @@
     display: none;
   }
  #app-container {
+   position: relative;
    height: 100vh;
    background: var(--light);
    color: var(--dark);

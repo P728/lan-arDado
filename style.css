@@ -1,7 +1,20 @@
 * {
     margin: 0;
     padding: 0;
-}
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --light: #cccccc;
+    --dark: #151515;
+  }
+
+  #theme-switcher {
+    display: none;
+  }
+
+
+
 .main {
     position: relative;
     background:black;
@@ -21,10 +34,15 @@
 #btn {
     width: 50px;
     height: 60px;
+    background: var(--light);
+    color: var(--dark);
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 20px;
     border: none;
     cursor: pointer;
     border-radius: 40px;
     outline: none;
-    background: none;
 }

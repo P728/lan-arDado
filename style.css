@@ -21,8 +21,6 @@
    justify-content: center;
  }
   .theme-switcher-area {
-    border: 1px solid var(--light);
-    background: var(--dark);
     border-radius: 2rem;
     width: 4.5rem;
     height: 2.5rem;
@@ -38,7 +36,7 @@
     border-radius: 50%;
     width: 2rem;
     height: 2rem;
-    border: 2px dashed var(--dark);
+    border: 2px dashed var(--light);
     transition: 0.3s;
   }
   .theme-switcher-button::after {
@@ -63,7 +61,7 @@
     color: var(--light);
   }
   .main{
-    position: absolute;
+    position: relative;
     max-width: 100%;
     justify-content: center;
     align-items: center;
@@ -78,7 +76,7 @@
     border-radius: 10px;
   }
   #btn {
-    background: Transparent no-repeat;  
+    background: transparent no-repeat;
     width: 50px;
     height: 60px;
     margin: 20px;

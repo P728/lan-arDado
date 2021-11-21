@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+    backgroun: 000;
+  }/*
   :root {
     --light: #cccccc;
     --dark: #151515;
@@ -59,7 +60,7 @@
   #theme-switcher:checked + #app-container {
     background: var(--dark);
     color: var(--light);
-  }
+  } */
   .main{
     position: relative;
     max-width: 100%;
